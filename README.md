@@ -12,8 +12,8 @@ Interpretation: Given a list of URLs linking to job listings from indeed.com, re
 
 *Command Line Input:* curl -i -H "Content-Type: application/json" -X POST -d '{"jobs":["http://www.indeed.com/viewjob?jk=8cfd54301d909668","http://www.indeed.com/viewjob?jk=b17c354e3cabe4f1","http://www.indeed.com/viewjob?jk=38123d02e67210d9"]}' http://localhost:5000/
 
-*Output:* ![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out1.JPG)
-![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out2.JPG)
+*Output:* 
+![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out3.JPG)
 
 
 **Python_indeedScraperPage.py**:
@@ -23,5 +23,6 @@ Interpretation: Given a URL linking to a page of job listings from indeed.com, c
 *Command Line Input:* curl -i -H "Content-Type: application/json" -X POST -d '{"jobs":["https://www.indeed.com/jobs?q=data+scientist&l=San+Diego%2C+CA"]}' http://localhost:5000/
 
 *Output:*
+![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out1.JPG)
+![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out2.JPG)
 
-![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out3.JPG)
