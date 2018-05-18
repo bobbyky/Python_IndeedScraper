@@ -23,7 +23,8 @@ Interpretation: Given a list of URLs linking to a page of job listings from inde
 *Command Line Input:* curl -i -H "Content-Type: application/json" -X POST -d '{"jobs":["https://www.indeed.com/jobs?q=accountant&l=San+Francisco%2C+CA","https://www.indeed.com/jobs?q=data+scientist&l=San+Diego%2C+CA"]}' http://localhost:5000/
 
 *Output:*
-![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out1.JPG)
-![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out2.JPG)
+![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/a.JPG)
+![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/b.JPG)
+![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/c.JPG)
 
 **Please note that not all job listing pages from indeed.com will work with this program, job listing pages that include "Indeed Prime" job listings can't be used with Python_indeedScraperPage.py**
