@@ -18,11 +18,12 @@ Interpretation: Given a list of URLs linking to job listings from indeed.com, re
 
 **Python_indeedScraperPage.py**:
 
-Interpretation: Given a URL linking to a page of job listings from indeed.com, create a list of URLs from each job listing. With the list of URLs for each job listing, return the job title, location, company name, and url for each listing.
+Interpretation: Given a list of URLs linking to a page of job listings from indeed.com, create a list of URLs from each page. With the list of URLs return the job title, location, company name, and url for each listing for each job listing.
 
-*Command Line Input:* curl -i -H "Content-Type: application/json" -X POST -d '{"jobs":["https://www.indeed.com/jobs?q=data+scientist&l=San+Diego%2C+CA"]}' http://localhost:5000/
+*Command Line Input:* curl -i -H "Content-Type: application/json" -X POST -d '{"jobs":["https://www.indeed.com/jobs?q=accountant&l=San+Francisco%2C+CA","https://www.indeed.com/jobs?q=data+scientist&l=San+Diego%2C+CA"]}' http://localhost:5000/
 
 *Output:*
 ![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out1.JPG)
 ![My image](https://github.com/bobbyky/IndeedWebScraper/blob/master/Images/out2.JPG)
 
+**Please note that not all job listing pages from indeed.com will work with this program, job listing pages that include "Indeed Prime" job listings can't be used with Python_indeedScraperPage.py**
